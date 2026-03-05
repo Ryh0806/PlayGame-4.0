@@ -65,7 +65,7 @@ function start() {
     carregando.currentTime = 0;
     carregando.play();
 
-    setTimeout(verificarResultado, 700);
+    setTimeout(verificarResultado, 1000);
 }
 
 // ===============================
@@ -164,5 +164,6 @@ function verificarResultado() {
 function reset() {
 
     window.location.reload();
+
 
 }
