@@ -1,0 +1,141 @@
+/* ============================= */
+/* CONFIGURAÇÃO GLOBAL */
+/* ============================= */
+
+body{
+    color: rgb(240, 240, 207);
+    background-color: rgb(70, 53, 45);
+    background-image: url("img.prin.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ============================= */
+/* IMAGEM */
+/* ============================= */
+
+img{
+    width: 40%;
+    max-width: 180px;
+    height: auto;
+    margin-top: 40px;
+
+    border-radius: 30px;
+
+    display: block;
+}
+
+/* ============================= */
+/* TEXTO */
+/* ============================= */
+
+.jao{
+    color: rgba(18, 14, 235, 0.836);
+}
+
+.saudacao{
+    margin-top: 500px;
+}
+
+/* ============================= */
+/* INPUT */
+/* ============================= */
+
+input{
+    border-radius: 80px;
+    border: 2px solid rgb(70, 53, 45);
+
+    font-size: 20px;
+
+    width: 80%;
+    max-width: 400px;
+
+    padding: 12px;
+    margin: 10px 0;
+}
+
+/* ============================= */
+/* BOTÕES */
+/* ============================= */
+
+button{
+    color: rgb(240, 240, 207);
+    background-color: rgb(70, 53, 45);
+
+    border: 2px solid rgb(70, 53, 45);
+    border-radius: 50px;
+
+    font-size: 22px;
+
+    padding: 15px 25px;
+    margin: 10px;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(100, 75, 63);
+}
+
+/* ============================= */
+/* BOTÃO NÍVEL */
+/* ============================= */
+
+.nivel{
+    font-size: 18px;
+    padding: 12px 20px;
+    background-color: rgb(70, 53, 45);
+    color:  rgb(240, 240, 207);
+    border-radius: 45px;
+}
+
+/* ============================= */
+/* RESPONSIVIDADE */
+/* ============================= */
+
+@media (max-width: 768px){
+
+    img{
+        width: 60%;
+        max-width: 150px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    input{
+        font-size: 18px;
+    }
+
+    button{
+        width: 90%;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    img{
+        width: 70%;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+}

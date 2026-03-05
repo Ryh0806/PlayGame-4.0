@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo de Número Secreto</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+  html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background: url("https://images6.alphacoders.com/855/thumb-1920-855977.jpg") no-repeat center center;
+    background-size: cover;
+}
+        </style>
+    </head>
+    <body>
+        <h1>Dê start e veja a sua sorte!</h1>
+        <h2>Lembre-se você é capaz!</h2>
+
+        <div class="resultado">
+            <input type="number" id="adicione" placeholder="Adicione o seu número!">
+             <p id="batata">O resultado é:</p>
+             <img id="case" src="https://media.tenor.com/95vdiHbtudwAAAAM/clash-royale-waiting.gif" alt="">
+        </div>  
+
+        <div class="botao">
+            <button onclick="start()">Start</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+
+        <audio id="acerto" src="som2.mp3"></audio>
+        <audio id="erro" src="som1.mp3"></audio>
+        <audio id="carregando" src="som3.mp3"></audio>
+        <audio id="gameOver" src = "gameover.mp3"></audio>
+        <script src="script.js"></script>
+    </body>
+ </html>
+
